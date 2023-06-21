@@ -1,0 +1,411 @@
+* {
+	box-sizing: border-box;
+}
+
+p{
+	font-size: 30px;	
+	font-style: normal;
+	font-weight: 300;
+	font-size: 27px;
+	line-height: 33px;
+}
+
+a:hover {
+	color: #F39200;
+}
+
+
+
+h2, p {
+	font-family: Signika, sans-serif;
+}
+
+h2{
+	display: inline;
+	font-weight: bold;
+	font-size: 45px;
+	margin-top: 100px;
+	border-bottom: solid 4px white;
+}
+
+h3 {
+	font-family: Signika, sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	margin-top: 32px
+}
+
+h4{
+	font-family: Signika, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 32px;
+	color: white;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+nav {
+	padding-left: 20px;
+
+}
+
+nav a {
+
+	font-size: 29px;
+	text-decoration: none;
+	font-family: Signika, sans-serif;
+	padding-left: 60px;
+	color: black;
+	font-weight: bold;
+	color: white;
+}
+
+	 
+#banner {
+	position: relative;
+	padding-bottom: 0px;
+}
+
+#menu {
+	padding-left: 0;
+	padding-top: 90px;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+}
+
+#banner h5 {
+	margin-bottom: 10px;
+}
+
+
+#menu img {
+	width: 144px;  
+}
+
+.container-fluid {
+	padding: 0 !important; 
+}
+
+
+.botonnaranja {
+	border-radius: 20px;
+	padding: 3px 100px;
+	color: white;
+	background-color: #F39200;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.video img {
+	width: 100%;
+
+}
+
+.descripcion img {
+	border-radius: 20px;
+	
+}
+
+.descripciondos img {
+	border-radius: 20px;
+	display: none;
+}
+.sas {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.fondonar {
+	background-color: #F39200;
+	color: white;
+	justify-content: center;
+	padding-bottom: 140px;
+	padding-top: 100px;
+}
+
+span {
+	color: #8D5500;
+}
+
+.trayectoria {
+	margin-bottom: 50px;
+} 
+
+.derecha {
+	padding-left: 50px;
+}
+
+.click {
+	margin-top: 30px;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.1);
+	display: inline;
+	color: white;
+	padding: 20px;
+
+
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+
+
+
+	border-radius: 40px;
+	padding: 11px 60px;
+	padding-bottom: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	position: relative;
+	top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.footer a {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 26px;
+	text-decoration: none;
+	color: white;
+}
+
+.footer a:hover {
+	color: #606060;
+}
+
+.cra {
+	padding-top: 35px;
+}
+
+.medio {
+	margin-left: 80px;
+}
+
+.redes {
+	margin-left: 30px;
+}
+
+#bcfo {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 42px;
+	color: white;
+	padding-top: 80px;
+	margin: 0;
+}
+
+#derechos {
+font-style: normal;
+font-weight: 300;
+	font-size: 18px;
+line-height: 26px;
+}
+
+.imgfo {
+	width: 70px;
+	position: relative;
+	bottom: 80px;
+	left: 220px;
+}
+
+.texto {
+
+	padding-right: 100px;
+
+}
+
+.radius {
+	padding: 100px;
+	padding-right: 45px	;
+	
+}
+
+.radius img {
+	border-radius: 30px;
+}
+
+
+@media (max-width: 1200px) {
+
+	.medioimg {
+		margin-top: 100px;
+		text-align: center;
+	}
+
+	.medioimg img {
+		width: 85%;
+		border-radius: 30px;
+	}
+
+	.texto {
+		padding-top: 40px;
+		padding-left: 100px;
+		margin-bottom: 100px;
+	}
+	
+}
+
+
+@media (max-width: 992px){
+
+	.medioimg {
+		margin-top: 0px;
+		text-align: center;
+	}
+
+	.medioimg img {
+		width: 100%;
+		border-radius: 0px;
+	}
+
+	.descripciondos img {
+		width: 100%;
+		border-radius: 0px;
+		display: block;
+		margin-bottom: 30px;
+	}
+	
+	nav {
+		display: none;
+	}
+
+	#menu .offset-1 {
+		margin: 0;
+		position: relative;
+		right: 340px;
+	}
+
+	.sas {
+	margin-top: 0px;
+}
+
+	.descripcion img {
+	border-radius: 0px;
+}	
+
+	.datos {
+		width: 80%;
+		display: flex;
+		padding-left: 220px;
+
+	}
+
+	.bctec {
+		width: 70%;
+	}
+
+	
+
+	.padding {
+		padding-left: 0;
+	}
+
+	.datos .derecha {
+		margin: 0;
+		padding: 0;
+	}
+
+	.principalfooter {
+		background: black;
+	}
+
+	.footer {
+		display: block;
+		width: 75%;
+	}
+
+	.footer .f1 {
+		display: none;
+	}
+
+	.footer .none {
+		display: none;
+	}
+
+	.redes{
+		margin-left: 0;
+	}
+
+	.redes a {
+		font-weight: bold;
+		text-align: left;
+
+	}
+
+	.medio {
+		margin: 0;
+	}
+
+	.form-select {
+		width: 100%;
+		height: 50px;
+		margin-top: 60px;
+		background: none;
+		border-left: none;
+		border-radius: 0;
+		border-right: none;
+	}
+
+	option {
+		background: black;
+		border-radius: none;
+	}
+
+	.imgfo {
+		width: 70%;
+		position: relative;
+		bottom: 180px;
+		left: 600px;
+	}
+	
+	.nav {
+		text-align: right;position: relative;
+		left: 370px;
+		bottom: 100px;
+		width: 500px;
+		right: 0;
+		padding: 0 !important;
+		margin-right: auto !important;
+		}	
+
+
+}
+
